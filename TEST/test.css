@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(34, 34, 27);
+}
+
+.click {
+    text-align: center;
+    margin-top: 23%;
+}
+
+a:link,
+:visited {
+    text-decoration: none;
+    background-color: #8b2cda;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 30px;
+    font-size: xx-large;
+    font-style: oblique;
+    box-shadow: 2px 3px 0px 4px rgb(0, 0, 0);
+    animation: pulse 1.4s infinite;
+
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: #ffffff 0 0 0 0;
+    }
+
+    80% {
+        box-shadow: #00000042 20px;
+    }
+}
+
+a:hover {
+    background-color: #8133ff;
+    color: #fff;
+}
+
+a:active {
+    box-shadow: none;
+    padding: 18px;
+}
